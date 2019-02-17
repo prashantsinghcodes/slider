@@ -1,0 +1,2 @@
+# SlidersInJs
+Carousel in Javascript
