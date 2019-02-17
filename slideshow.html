@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<script src="js/sliderJs.js">
+</script>
+</head>
+<body onload="setDefault();">
+<div class="corousel">
+     <img id="first" src="slider/img1.jpg" style="display: block; height: 278px; width:998px;"/>
+	 <img id="second" src="slider/img2.jpg" style="display: none; height: 278px; width:998px;">
+	 <img id="third" src="slider/img3.jpg" style="display: none; height: 278px; width:998px;"/>
+	 <img id="fourth"src="slider/img4.jpg" style="display: none; height: 278px; width:998px;"/>
+	 <img id="fifth" src="slider/img5.jpg" style="display: none; height: 278px; width:998px;"/>
+	 <img id="sixth" src="slider/img6.jpg" style="display: none; height: 278px; width:998px;"/>
+	 <input type ="button" value="prev" id="leftButton" onclick="leftMovement()"/>
+	 <input type="button" value="next" onclick="rightMovement();" id="rightButton"/>
+</div>
+</body>
+</html>
