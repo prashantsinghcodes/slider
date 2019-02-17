@@ -1,0 +1,16 @@
+.corousel
+{
+    height: 280px;
+	width: 1000px;
+}
+#leftButton
+{
+    float: left;
+	background: red;
+}
+#rightButton 
+{
+      float: right;
+	  background: red;
+}
+
